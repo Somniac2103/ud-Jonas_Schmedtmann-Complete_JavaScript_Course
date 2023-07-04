@@ -50,3 +50,53 @@ const birthYear = 1991;
 var job = "programmer";
 job = "teacher"; 
 */
+
+//OPERATORS
+/* 
+const now = 2037;
+const ageJonas = now-1991;
+const ageSarah = now-2018;
+console.log(ageJonas, ageSarah);
+console.log(ageSarah);
+
+console.log(ageJonas*2,ageJonas/10, 2**3);
+
+const firstName = 'Barry';
+const lastName = 'Salmon';
+
+console.log(firstName + ' ' + lastName);
+
+let x = 10 + 5;
+console.log(x);
+x += 10;
+console.log(x);
+x++;
+console.log(x);
+
+console.log(ageJonas > ageSarah); 
+*/
+
+//PRECENDENCE OF OPERATORS
+
+//STRINGS AND TEMPLATE LITERALS
+/* 
+const firstName = 'Barry';
+const job = 'Teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const barry = "I'm "+ firstName + ', a '+(year-birthYear) + ' years old ' + job + "!";
+console.log(barry);
+const barryNew = `I'm ${firstName}, a ${year-birthYear} years old ${job}!`;
+console.log(barryNew);
+
+console.log("String with \n\
+multiple \n\
+lines");
+
+console.log(`String
+mulitple
+lines`);
+ */
+
+
